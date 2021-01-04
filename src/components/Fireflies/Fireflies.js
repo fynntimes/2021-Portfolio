@@ -4,7 +4,6 @@ import React, { useRef } from 'react';
 import useDimensions from '../../hooks/useDimensions';
 import useAnimationFrame from '../../hooks/useAnimationFrame';
 import './Fireflies.css';
-import background from './background.jpg';
 
 const backgroundImage = new Image();
 const fireflies = [];
