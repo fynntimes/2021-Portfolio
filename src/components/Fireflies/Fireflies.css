@@ -1,0 +1,8 @@
+#firefliesContainer {
+    position: absolute;
+    top: 0;
+}
+
+#firefliesContainer canvas, #firefliesOverlay {
+    position: absolute;
+}
