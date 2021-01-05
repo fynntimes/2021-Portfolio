@@ -20,7 +20,7 @@ function App() {
               <Fireflies overlay={() => <AboutMe/>}/>
             </Page>
             <AboutSection/>
-            <UmojaOutreach/>
+            {/* <UmojaOutreach/> */}
           </>
         );
       }}

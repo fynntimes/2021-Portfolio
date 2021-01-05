@@ -93,8 +93,7 @@ function Fireflies(props) {
     const canvasRef = useRef(null);
     const { width, height } = useDimensions();
 
-    // https://www.istockphoto.com/vector/forest-landscape-illustration-gm907887958-250092078
-    backgroundImage.src = "https://i.ibb.co/kQhWFQ7/i-Stock-853097960.jpg";
+    backgroundImage.src = "images/background.jpg";
 
     useAnimationFrame(canvasRef, (context, time) => {
         // draw some lovely flying fireflies

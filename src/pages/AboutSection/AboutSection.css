@@ -10,6 +10,13 @@
     margin-right: 48px;
 }
 
+.copyright {
+    position: absolute;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+}
+
 @media (max-width: 800px) {
     .aboutDetails {
         flex-direction: column;
