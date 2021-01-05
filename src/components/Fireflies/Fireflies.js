@@ -94,7 +94,7 @@ function Fireflies(props) {
     const { width, height } = useDimensions();
 
     // https://www.istockphoto.com/vector/forest-landscape-illustration-gm907887958-250092078
-    backgroundImage.src = "https://media.istockphoto.com/vectors/forest-landscape-illustration-vector-id907887958";
+    backgroundImage.src = "https://i.ibb.co/kQhWFQ7/i-Stock-853097960.jpg";
 
     useAnimationFrame(canvasRef, (context, time) => {
         // draw some lovely flying fireflies
@@ -108,7 +108,7 @@ function Fireflies(props) {
     return (
         <div id="firefliesContainer">
             <canvas ref={canvasRef} width={width} height={height} />
-            <div id="firefliesOverlay">{props.overlay()}</div>
+            <div id="firefliesOverlay" style={{ width, height }}>{props.overlay()}</div>
         </div>
     );
 }

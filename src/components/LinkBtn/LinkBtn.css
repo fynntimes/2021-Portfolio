@@ -1,0 +1,19 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-btn {
+    margin-right: 24px;
+    padding: 12px 24px;
+    background-color: #505050;
+    font-size: 1.25em;
+}
+
+.link-btn:hover {
+    background-color: #3b3b3b;
+}
+
+.link-btn i {
+    margin-right: 8px;
+}

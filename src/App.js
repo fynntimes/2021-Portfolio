@@ -2,21 +2,23 @@ import './App.css';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Page from './components/Page/Page';
 import Fireflies from './components/Fireflies/Fireflies';
+import AboutMe from './components/AboutMe/AboutMe';
+import AboutSection from './pages/AboutSection/AboutSection';
 
 function App() {
   return (
     <ReactFullpage
+      anchors={['home','about','umoja','ugames']}
+      // navigation={true}
+      navigationPosition='right'
+
       render={({state, fullpageApi}) => {
         return (
           <>
             <Page>
-              <Fireflies
-                overlay={() => {
-                  return <h1>Hi!</h1>
-                }}
-              />
+              <Fireflies overlay={() => <AboutMe/>}/>
             </Page>
-            <Page>Hey 2</Page>
+            <AboutSection/>
           </>
         );
       }}

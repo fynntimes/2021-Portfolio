@@ -1,0 +1,26 @@
+.fancy-header-wrapper {
+    margin: 24px;
+    position: relative;
+    height: 180px;
+    width: 100%;
+}
+
+.fancy-header {
+    background: rgb(29,23,54);
+    background: linear-gradient(90deg, rgb(219, 188, 50) 0%,  rgb(119, 101, 20) 100%);
+    border-radius: 30% 70% 70% 30% / 30% 38% 62% 70%;
+    width: 128px;
+    height: 128px;
+    z-index: 20;
+}
+
+.fancy-header-wrapper h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 4em;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: 100%;
+    color: white;
+    z-index: 200;
+}

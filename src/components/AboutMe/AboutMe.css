@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+#aboutMeWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#aboutMe {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* name */
+#aboutMe h1 {
+    font-size: 5em;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    color: #EB5E28;
+}
+
+/* subtitle */
+#aboutMe h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+#aboutButtons {
+    display: flex;
+    margin-top: 24px; 
+}
+
+@media (max-width: 800px) {
+    #aboutMe {
+        margin: 48px;
+    }
+
+    #aboutMe h1 {
+        font-size: 4em;
+    }
+
+    #aboutButtons {
+        flex-direction: column;
+        margin: 24px;
+    }
+
+    #aboutButtons a {
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    #aboutButtons a div {
+        margin-right: 0;
+    }
+}
