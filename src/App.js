@@ -4,6 +4,7 @@ import Page from './components/Page/Page';
 import Fireflies from './components/Fireflies/Fireflies';
 import AboutMe from './components/AboutMe/AboutMe';
 import AboutSection from './pages/AboutSection/AboutSection';
+import UmojaOutreach from './pages/Projects/Umoja';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Fireflies overlay={() => <AboutMe/>}/>
             </Page>
             <AboutSection/>
+            <UmojaOutreach/>
           </>
         );
       }}

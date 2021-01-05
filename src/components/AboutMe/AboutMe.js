@@ -10,10 +10,10 @@ export default function AboutMe(props) {
                     <h1>Faizaan Datoo.</h1>
                 </div>
                 <div id="aboutButtons">
-                    <LinkBtn href="https://github.com/faizaand/"><i class="fab fa-github"></i>GitHub</LinkBtn>
+                    <LinkBtn href="https://github.com/faizaand/" target="_blank"><i class="fab fa-github"></i>GitHub</LinkBtn>
                     <LinkBtn href="#"><i class="fas fa-paperclip"></i>Resume</LinkBtn>
                     <LinkBtn href="mailto:fad35@cornell.edu"><i class="fas fa-inbox"></i>Email</LinkBtn>
-                    <LinkBtn href="https://www.linkedin.com/in/faizaand/"><i class="fab fa-linkedin"></i>LinkedIn</LinkBtn>
+                    <LinkBtn href="https://www.linkedin.com/in/faizaand/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</LinkBtn>
                 </div>
             </div>
         </div>

@@ -1,0 +1,21 @@
+.aboutDetails {
+    margin: 24px 48px 24px 48px;
+    display: flex;
+}
+
+.aboutDetails img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-right: 48px;
+}
+
+@media (max-width: 800px) {
+    .aboutDetails {
+        flex-direction: column;
+        display: block;
+    }
+    .aboutDetails img {
+        margin-bottom: 24px;
+    }
+}
