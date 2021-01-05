@@ -41,8 +41,12 @@ function clearCanvas(context) {
     if (!backgroundImage.complete) {
         context.fillStyle = 'rgba(0,0,0,1)';
         context.fillRect(0, 0, context.canvas.width, context.canvas.height);
-    } else
-        context.drawImage(backgroundImage, 0, 0, context.canvas.width, context.canvas.height);
+    } else{
+        let adjWidth = Math.max(context.canvas.width, 800);
+        let adjHeight = Math.max(context.canvas.height, 800);
+
+        context.drawImage(backgroundImage, 0, 0, adjWidth, adjHeight);
+    }
 }
 
 function replenishFirefiles(fireflies, screenWidth, screenHeight) {

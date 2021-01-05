@@ -5,7 +5,7 @@ import GoDown from '../../components/GoDown/GoDown';
 
 export default function AboutSection() {
     return (
-        <Page>
+        <Page id="aboutSection">
             <FancyHeader>About me</FancyHeader>
             <div class="aboutDetails">
                 <img src="images/me.jpg"></img>
@@ -30,10 +30,6 @@ export default function AboutSection() {
                     <br/>
                     <p>I am in the process of featuring my projects on this portfolio. For now, please refer to my <a href="https://github.com/faizaand/" target="_blank" style={{textDecoration: 'underline'}}>GitHub page</a>.</p>
                 </div>
-            </div>
-
-            <div className="copyright">
-                &copy; 2021 Faizaan Datoo. View the source code <a href="https://github.com/faizaand/2021-portfolio" target="_blank" style={{textDecoration: 'underline'}}>here</a>.
             </div>
         </Page>
     );
